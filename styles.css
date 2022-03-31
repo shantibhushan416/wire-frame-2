@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgba(0, 0, 0, 0.8);
+  border: 3px solid orange;
+  height: fit-content;
+}
+
+/* .main {
+  display: flex;
+  flex-direction: column;
+} */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid orange;
+  padding: 0.5rem;
+}
+.logo {
+  color: orange;
+  margin-left: 1rem;
+  border: 3px solid orange;
+  text-align: center;
+}
+.mainlogo,
+.slogo {
+  padding: 1.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.info {
+  margin-top: 0.5rem;
+}
+.socialicon {
+  float: right;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+}
+a {
+  float: right;
+  margin-left: 1rem;
+  color: orange;
+  font-size: x-large;
+}
+.srch {
+  margin: 1rem;
+}
+#find {
+  font-family: "Times New Roman";
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid orange;
+  font-size: 16px;
+}
+.btn {
+  height: 40px;
+  border: 1px solid orange;
+  background: orange;
+  padding: 0.5rem;
+}
+.book {
+  float: right;
+  color: orange;
+  border: 2px solid orange;
+  margin-right: 1rem;
+  padding: 0.5rem 4.1rem;
+  text-align: center;
+}
+.menu {
+  height: 70px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  color: orange;
+  font-size: large;
+  text-decoration: underline;
+  border-bottom: 3px solid orange;
+}
+ul li {
+  padding: 0.5rem;
+}
+.mainimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 3px solid orange;
+  padding: 0.5rem;
+}
+img {
+  width: 100vh;
+  height: 300px;
+  object-fit: cover;
+  margin: 0 1rem 1rem 1rem;
+}
+.invastigate {
+  width: 300px;
+  height: fit-content;
+  margin-top: 250px;
+}
+.more {
+  text-align: center;
+  padding: 0.5rem;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 3px solid orange;
+}
+.maincourse {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.foodmenu {
+  width: 100%;
+  margin: 1rem;
+}
+.simg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.sheading,
+article {
+  margin-left: 1rem;
+  color: orange;
+}
+article {
+  font-size: large;
+  margin-bottom: 00.5rem;
+}
+.discription {
+  display: flex;
+  flex-direction: row;
+}
+.comment {
+  color: orange;
+}
+.fullstory {
+  text-decoration: underline;
+}
+.AboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 250px;
+  color: orange;
+  align-content: center;
+  text-align: center;
+  margin-top: 1rem;
+  border: 3px solid orange;
+  overflow: hidden;
+}
+.sdiscription {
+  margin-top: 2rem;
+  direction: ltr;
+}
+.donate {
+  margin-top: 1rem;
+  padding-right: 8rem;
+}
+.me {
+  margin-bottom: 1rem;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: orange;
+}
+ol {
+  padding: 1rem;
+  font-size: large;
+  text-decoration: underline;
+}
+li {
+  list-style: none;
+  font-size: small;
+  line-height: 1.3rem;
+}
+.logout {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  border-top: 3px solid orange;
+}
+.log {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  color: orange;
+  text-decoration: underline;
+}
